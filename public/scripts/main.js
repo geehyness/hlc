@@ -5,7 +5,7 @@
  * ------------------------------------------------------------------- */
 
 (function(html) {
-
+console.log("I AM RUNNING!! LEAVE ME ALONE!!");
     'use strict';
 
     const cfg = {
