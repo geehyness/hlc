@@ -10,11 +10,11 @@ export default function BlogPost({
     slug,
 }){
     return(
-        <footer class="footer">
-            <div class="footer-logo">
+        <footer className="footer">
+            <div className="footer-logo">
                 {/* SVG LOGO */}
             </div>
-            <div class="footer-links">
+            <div className="footer-links">
                 <ul>
                 <li><h3>Content</h3></li>
                 <li><a href="#">About</a></li>
@@ -34,7 +34,7 @@ export default function BlogPost({
                 </ul>
             </div>
 
-            <div class="disclaimer">
+            <div className="disclaimer">
                 <p>Copyright &copy; <script>document.write(new Date().getFullYear());</script> &nbsp;&nbsp;|&nbsp;&nbsp; Higher Life Centre</p>
             </div>
             </footer>   

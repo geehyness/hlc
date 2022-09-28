@@ -11,7 +11,7 @@ export default function BlogPost({
 }){
     return(
         <div className={styles.card}>
-            <Link href={'/post/'+slug}>
+            <Link href={'/posts/'+slug}>
                 <div className="blog-list-home">
                     <div className="blog-thumbnail">
                         <div className="thumbnail-frame">

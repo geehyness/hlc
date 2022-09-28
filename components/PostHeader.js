@@ -11,7 +11,21 @@ export default function PostHeader({
 }){
     return(
       <header>
-        
+        {console.log(coverPhoto)}
+        <style jsx>{`
+          header:after {
+            filter: blur(5px);
+            background-attachment: fixed;
+            background-image: url(${coverPhoto.url});
+            background-position: bottom center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            animation: blur 10s linear infinite;
+            overflow: hidden;
+            z-index: -1;
+          }`
+        }
+        </style>
         
         <div className="container">
           <nav>

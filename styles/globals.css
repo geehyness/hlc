@@ -1,3 +1,5 @@
+
+
 html,
 body {
   padding: 0;
@@ -187,7 +189,7 @@ body {
   color: #444;
 }
 
-.container {
+.containercustom {
   position: relative;
   display: block;
   width: 80%;
@@ -220,13 +222,13 @@ header:before {
 header:after {
   filter: blur(5px);
   background-attachment: fixed;
-  background-image: url("https://static.pexels.com/photos/266526/pexels-photo-266526.jpeg");
+  /* background-image: url("https://static.pexels.com/photos/266526/pexels-photo-266526.jpeg"); */
   background-position: bottom center;
   background-repeat: no-repeat;
   background-size: cover;
   animation: blur 10s linear infinite;
   overflow: hidden;
-  z-index: -1;
+  z-index: -2;
 }
 @keyframes blur {
   0% {

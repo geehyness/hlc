@@ -14,16 +14,16 @@ export default function BlogPost({
 }){
     return(
         <section>
-            <div class="scroll">
-                <i class="fa fa-long-arrow-down" aria-hidden="true"></i>
+            <div className="scroll">
+                <i className="fa fa-long-arrow-down" aria-hidden="true"></i>
             </div>
-            <div class="container">
+            <div className="container">
                 <h1>{title}</h1>
-                <div class="byline">
-                <div class="avatar"><img src={author.avatar.url} /></div>
+                <div className="byline">
+                <div className="avatar"><img src={author.avatar.url} /></div>
                 by <span>{author.name}</span>
                 </div>
-                {/* <p><span class="drop">Y</span>ou gotta go through it to see there ain't nothing to it. Did you feel that? Look at me - I'm not out of breath anymore! Go with the feeling of the nature. Take it easy. Know why you're here. And remember to balance your internal energy with the environment. </p> */}
+                {/* <p><span className="drop">Y</span>ou gotta go through it to see there ain't nothing to it. Did you feel that? Look at me - I'm not out of breath anymore! Go with the feeling of the nature. Take it easy. Know why you're here. And remember to balance your internal energy with the environment. </p> */}
 
                 <div dangerouslySetInnerHTML={{__html: content.html}}></div>
             </div>
