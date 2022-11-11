@@ -1,4 +1,5 @@
 import Link from "next/link"
+import Image from "next/image"
 import styles from '../styles/BlogCard.module.css'
 
 export default function BlogPost({
@@ -15,7 +16,7 @@ export default function BlogPost({
                 <div className="blog-list-home">
                     <div className="blog-thumbnail">
                         <div className="thumbnail-frame">
-                            <img src={coverPhoto.url} alt="" />
+                            <Image src={coverPhoto.url} alt="" />
                         </div>
                     </div>
                     <div className="blog-list-content">
